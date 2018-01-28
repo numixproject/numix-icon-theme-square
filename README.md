@@ -5,11 +5,11 @@ Square is an icon theme for Linux from the [Numix project](http://numixproject.o
 If using this with our [base icon theme](https://github.com/numixproject/numix-icon-theme) make sure you install both parts using the same method. This makes sure that the panel icons keep working as intended.
 
 ### Distro Packages
-If you use Fedora, Debian, Ubuntu, or any of their derivatives then you're sorted! Numix Square is available from the official repositories.
+If you use Debian, Ubuntu, or any of their derivatives then you're sorted! Numix Square is available from the official repositories. Fedora packaging is not in Fedora's offical repository yet, but we do have a copr repository you can get Numix Square from.
 
 |Distro|Install Command/Links|
 |:----:|:----:|
-|![fedora][fedora]|`sudo dnf install numix-icon-theme-square`|
+|![fedora][fedora]|`sudo dnf copr enable mymindstorm/numix && dnf install numix-icon-theme-square`|
 |![debian][debian] &nbsp;![ubuntu][ubuntu]|`sudo apt install numix-icon-theme-square`|
 
 ### Nightly Packages
