@@ -9,7 +9,7 @@ If you use Debian, Ubuntu, or any of their derivatives then you're sorted! Numix
 
 |Distro|Install Command/Links|
 |:----:|:----:|
-|![fedora][fedora]|`sudo dnf copr enable mymindstorm/numix && dnf install numix-icon-theme-square`|
+|![fedora][fedora]|`sudo dnf copr enable mymindstorm/numix && sudo dnf install numix-icon-theme-square`|
 |![debian][debian] &nbsp;![ubuntu][ubuntu]|`sudo apt install numix-icon-theme-square`|
 
 ### Nightly Packages
