@@ -1,0 +1,15 @@
+language: python
+python:
+  - "3.4"
+env:
+  - VARIANT=square
+if: type NOT IN (push, pull_request) #AND fork = false
+branches:
+  only:
+    - "master"
+before_script:
+  - "sh ci/pull.sh"
+script:
+  - "sh ci/build.sh"
+after_success:
+  - "sh ci/commit.sh"
