@@ -8,6 +8,7 @@ if ! curl -s 'https://api.travis-ci.org/numixproject/numix-core.svg?branch=maste
     exit 1
 fi
 
+export 
 mkdir -p $TRAVIS_BUILD_DIR/build
-rm -rf $TRAVIS_BUILD_DIR/build/* $TRAVIS_BUILD_DIR/Numix-${VARIANT^}/48
+rm -rf $TRAVIS_BUILD_DIR/build/* $TRAVIS_BUILD_DIR/Numix-$VARIANT_UPPER/48
 git clone https://github.com/numixproject/numix-core.git $TRAVIS_BUILD_DIR/build

@@ -3,6 +3,8 @@ python:
   - "3.4"
 env:
   - VARIANT=square
+  - VARIANT_UPPER=$(echo "$VARIANT" | sed 's/.*/\u&/')
+conditions: v1
 if: type NOT IN (push, pull_request) #AND fork = false
 branches:
   only:
