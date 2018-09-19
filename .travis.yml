@@ -1,0 +1,22 @@
+language: python
+python:
+  - "3.4"
+env:
+  global:
+    - VARIANT=square
+    - VARIANT_UPPER=$(echo "$VARIANT" | sed 's/.*/\u&/')
+conditions: v1
+if: type NOT IN (push, pull_request) #AND fork = false
+branches:
+  only:
+    - "master"
+addons:
+  apt:
+    packages:
+      - "inkscape"
+before_script:
+  - "sh ci/pull.sh"
+script:
+  - "sh ci/build.sh"
+after_success:
+  - "sh ci/commit.sh"
