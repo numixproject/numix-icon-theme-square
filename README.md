@@ -13,6 +13,7 @@ If you use Debian, Fedora, Ubuntu, or any of their derivatives then you're sorte
 |:----:|:----:|
 |![fedora][fedora]|`sudo dnf install numix-icon-theme-square`|
 |![debian][debian] &nbsp;![ubuntu][ubuntu]|`sudo apt install numix-icon-theme-square`|
+|![arch][arch]|`yay -S numix-square-icon-theme-git`|
 
 ### Nightly Packages
 If you use Ubuntu or any of its derivatives (including Mint and elementary OS) you can use our Numix PPA to get the very latest version of the theme. Fire up a Terminal and run the following:
