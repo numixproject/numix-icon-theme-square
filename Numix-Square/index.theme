@@ -3,6 +3,7 @@ Name=Numix Square
 Comment=Numix icon theme with a square apps icons design
 
 Inherits=Numix
+FollowsColorScheme=true
 
 Example=directory-x-normal
 

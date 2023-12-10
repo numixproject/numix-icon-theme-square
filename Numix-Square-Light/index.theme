@@ -3,6 +3,7 @@ Name=Numix Square Light
 Comment=Numix icon theme with a square apps icons design for use with light themes
 
 Inherits=Numix-Light
+FollowsColorScheme=true
 
 Example=directory-x-normal
 
