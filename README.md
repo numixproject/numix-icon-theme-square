@@ -1,6 +1,6 @@
 # Numix Square
 
-Square is an icon theme for Linux from the [Numix project](https://numixproject.github.io/). This readme provides information on [installation](https://github.com/numixproject/numix-icon-theme-square/#installation), [icon requests](https://github.com/numixproject/numix-icon-theme-square/#icon-requests) and [hardcoded icons](https://github.com/numixproject/numix-icon-theme-square/#hardcoded-icons). Licensed under the GPL-3.0+
+Square is an app icon theme for Linux from the [Numix project](https://numixproject.github.io/) intended to be used on top of our [base icon theme](https://github.com/numixproject/numix-icon-theme). This readme provides information on [installation](https://github.com/numixproject/numix-icon-theme-square/#installation), [icon requests](https://github.com/numixproject/numix-icon-theme-square/#icon-requests) and [hardcoded icons](https://github.com/numixproject/numix-icon-theme-square/#hardcoded-icons). Licensed under the GPL-3.0+
 
 ![Square Screenshot](https://user-images.githubusercontent.com/27789806/35548117-fc605166-0542-11e8-8dd4-a588753bb0f8.png)
 
